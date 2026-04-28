@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: White;
+}
+p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: gray;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+.filter{
+  margin: 0 auto;
+  font-size: large;
+  text-align: center;
+}
+
+.filter input{
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.filter table{
+  margin: 0 auto;
+}
+
+.cardlist{
+  margin: 5px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: space-between;
+  margin: 5px;
+  background-color: black;
+  border-radius: 10px;
+  width: 240px;
+  height: 450px;
+}
+
+.card img {
+  height: 240px;
+  width: 240px;
+  border-radius: 10px 10px 0 0;
+}
+
+.home-image {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.email-image {
+  width: 730px;
+  height: auto;
+  border-radius: 10px;
+}
