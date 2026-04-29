@@ -56,7 +56,7 @@ app.get('/seed', (req, res) => {
     const fs = require('fs');
     const path = require('path');
     const sql = fs.readFileSync(path.join(__dirname, '../db/init.sql'), 'utf8');
-    db.multi(sql)
+    db.none(sql)
         .then(() => res.send('Base de datos inicializada correctamente'))
         .catch((error) => res.status(500).send('Error: ' + error.message));
 });
